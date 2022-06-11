@@ -1,5 +1,5 @@
 # baidu_speark
-百度智能音箱 tty中断解决  
+百度智能音箱 tty无法中断解决  
 
 ![0432B4DBA3DFBD24DB2DA4CC497AFBBD](https://user-images.githubusercontent.com/107302470/173182645-8ab3366a-130c-4767-83d0-05e3aaec4a20.png)
 焊上晶晨的usb下载总线接口
