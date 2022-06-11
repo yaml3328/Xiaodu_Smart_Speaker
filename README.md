@@ -15,12 +15,13 @@ update bulkcmd "saveenv"
 百度智能音箱登录tty账号密码破解
 
 
-![image](https://user-images.githubusercontent.com/107302470/173182779-faee42d8-cd04-4c81-9c7f-9eef5015cd8f.png)
+![image](https://user-images.githubusercontent.com/107302470/173183220-3c14f55d-b29e-464d-af99-818e5003b199.png)
 
 
 rlogin程序直接在arm上直接跑 需要补全rlogin的配置 放在/data/etc/bdinfo 只需修改 find 蓝框位置改成 登录时的rid的下划线之前的 其他的一律可有可无
 
-![image](https://user-images.githubusercontent.com/107302470/173182904-7b500129-5de4-4266-8c7c-4bab3c420cd6.png)
+![image](https://user-images.githubusercontent.com/107302470/173183247-abb1fb9a-b2a3-44e3-9512-18f26d2cc30e.png)
+
 
 在arm板子上运行ida pro远程调试工具 上传rlogin 在ida pro上调试修改v4=rand()寄存器的值然后进去chech_sum中s1 即为登录密码
 
