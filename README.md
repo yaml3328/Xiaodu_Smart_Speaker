@@ -19,3 +19,4 @@ rlogin程序直接在arm上直接跑 需要补全rlogin的配置 放在/data/etc
 ![image](https://user-images.githubusercontent.com/107302470/173182904-7b500129-5de4-4266-8c7c-4bab3c420cd6.png)
 
 在arm板子上运行ida pro远程调试工具 上传rlogin 在ida pro上调试修改v4=rand()寄存器的值然后进去chech_sum中s1 即为登录密码
+![image](https://user-images.githubusercontent.com/107302470/173183062-ef210801-4671-45e1-baf4-a3de9262f17c.png)
