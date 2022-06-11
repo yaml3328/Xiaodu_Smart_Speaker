@@ -8,9 +8,11 @@
 Amlogic_Flash_Tool_v6.0.0 使用bin中的update.exe 可以更新单一分区和所有分区 百度智能音箱系统为buildroot构建的Linux
 ![image](https://user-images.githubusercontent.com/107302470/173182701-2dcba1f2-59a2-496b-bbb6-dc4e63f92b4f.png)
 
-!update bulkcmd "run usb_burning"
-!update bulkcmd "setenv bootdelay 30"
-!update bulkcmd "saveenv"
+update bulkcmd "run usb_burning"
+
+update bulkcmd "setenv bootdelay 30"
+
+update bulkcmd "saveenv"
 
 百度智能音箱登录tty账号密码破解
 
